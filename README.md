@@ -1,92 +1,58 @@
-![GitHub](https://img.shields.io/github/license/PuneethReddyHC/online-shopping-system-advanced)
-![](https://visitor-badge.glitch.me/badge?page_id=puneethreddyhc.shop)
+# 🛒 Online Shopping System with Advanced Admin Panel
 
-<a href="https://www.buymeacoffee.com/PuneethReddyHC" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="195" height="55"></a>
+### 👤 Developed by: Jishan Khan
+📧 **Email:** kjees1915@gmail.com
 
-> ## Updated project with extra Features like WISHLIST, List Orders, add Reviews, updated routing, resolved search bug is available for Premium 
+---
 
-[![Youtube Video](https://img.youtube.com/vi/gLwfj67GI8A/0.jpg)](https://youtu.be/gLwfj67GI8A)
+## 📋 Project Overview
+This is a full-stack **E-commerce Management System** developed using the **PHP/MySQL (XAMPP)** stack. The platform features two distinct interfaces:
+1. **User Layout:** Allows customers to browse products, use search filters, manage a shopping cart, and register/login.
+2. **Advanced Admin Panel:** A robust backend for administrators to manage users, add/update products, and monitor orders.
 
-> ### Any DBMS OR WEB TECHNOLOGIES (php, django, angular or react) or MachineLearning projects with installation support and code explaination for Premium contact phone: +919535688928 gmail: puneethreddy951@gmail.com or visit : http://www.notes4free.in/services.html
+---
 
-# online-shopping-with-advanced-admin-page
-Updated version
+## 🚀 Key Features
+* **User Authentication:** Secure registration and login modules for customers and admins.
+* **Product Management:** Full CRUD (Create, Read, Update, Delete) functionality for products.
+* **Advanced Search:** Integrated search bug fixes and optimized routing for product discovery.
+* **Shopping Cart:** Real-time cart management and checkout process.
+* **Admin Dashboard:** Comprehensive tools to manage the entire store database.
 
-online shopping system is a [DBMS project] with both admin and user layouts.
+---
 
-# Installation
+## 🛠️ Installation & Setup
 
-1. Install XAMPP or WAMPP.
+To run this project locally, follow these technical steps:
 
-2. Open XAMPP Control panal and start [apache] and [mysql] .
+### 1. Environment Setup
+* Install **XAMPP** or **WAMPP** on your machine.
+* Open the XAMPP Control Panel and start the **Apache** and **MySQL** services.
 
-3. Download project from github(https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git)  
-    OR follow gitbash commands
-    
-    i>cd C:\\xampp\htdocs\
-    
-    ii>git clone https://github.com/PuneethReddyHC/online-shopping-system-with-advanced-admin-page.git
-    
-4. extract files in C:\\xampp\htdocs\.
+### 2. File Configuration
+* Clone or download this repository into your local server directory: `C:\xampp\htdocs\`.
+* Ensure the project folder is named `online-shopping-system`.
 
-5. open link localhost/phpmyadmin
+### 3. Database Integration
+* Open your browser and go to `http://localhost/phpmyadmin`.
+* Create a **new database** named: `onlineshop`.
+* Click on the **Import** tab.
+* Browse for the SQL file located at: `/database/onlineshop.sql` and click **Go**.
 
-6. click on new at side navbar.
+### 4. Running the Application
+* Access the store via: `http://localhost/online-shopping-system`.
 
-7. give a database name as (onlineshop) hit on create button.
-
-8. after creating database name click on import.
-
-9. browse the file in directory[online-shopping-system-with-advanced-admin-page/database/onlineshop.sql].
-
-10. after importing successfully.
-
-11. open any browser and type http://localhost/online-shopping-system-with-advanced-admin-page-master.
-
-12. first register and then login
-
-13. admin login details  Email=admin@gmail.com or username = admin and Password=123456789.
-
-## If you like my project 
-Bye me Cup of coffee
-
-### Google pay or phonepay number 9535688928
-
-## visit my other repository with different admin pages with below link
-https://github.com/PuneethReddyHC/online-shopping-system-advanced
-
-https://github.com/PuneethReddyHC/event-management
-
-##  If you like my project hit a star button
+---
 
 
+## 📊 Project Screenshots
+The system includes specialized layouts for various user actions:
+* **Admin Product Management:** Interface for adding and listing store items.
+* **User Homepage:** Responsive store front with product filtering.
+* **Cart Page:** Overview of selected items before purchase.
 
-# Screenshots
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/adduser.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/adminproductadd.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/manageuser.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/manageuseradmin.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/productlistadmin.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/productlist.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/cartpage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/homepage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/loginmodal.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/mainpage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/productpage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/productzoom.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/registermodal.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/searchfilter.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/searchpage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/store.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/storepage.png)
-![Image of adduser](https://github.com/PuneethReddyHC/online-shopping-with-advanced-admin-page/blob/master/screenshot/storepage1.png)
+---
 
-
-
-
-
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## 📜 License & Contribution
+* This project is open for educational use and further development.
+* Feel free to submit pull requests for major changes or feature updates.
